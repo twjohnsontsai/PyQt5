@@ -59,3 +59,4 @@ class Ui_MainWindow(object):
         self.checkBox.setText(_translate("MainWindow", "CheckBox"))
 
 from PyQt5 import QtWebEngineWidgets
+# QT5已经转换好py的代码，但是要在虚拟路径里安装PyQtWebEngine，要在Pycharm的终端安装
