@@ -20,3 +20,5 @@ if __name__=='__main__':
     # 展示创建窗口
     sys.exit(app.exec_())
     # 执行主循环
+# 独安装PyQtWebEngine，安装命令为：pip3 install PyQtWebEngine
+
