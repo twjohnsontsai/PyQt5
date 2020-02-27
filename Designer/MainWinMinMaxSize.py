@@ -17,6 +17,13 @@ class Ui_MainWindow(object):
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit.setGeometry(QtCore.QRect(170, 170, 104, 79))
         self.textEdit.setObjectName("textEdit")
+
+        print(self.textEdit.sizeHint().width())
+        print(self.textEdit.sizeHint().height())
+
+        print(self.textEdit.minimumSizeHint().width())
+        print(self.textEdit.minimumSizeHint().height())
+
         self.widget = QtWidgets.QWidget(self.centralwidget)
         self.widget.setGeometry(QtCore.QRect(190, 90, 343, 32))
         self.widget.setObjectName("widget")
@@ -25,6 +32,13 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.pushButton = QtWidgets.QPushButton(self.widget)
         self.pushButton.setObjectName("pushButton")
+
+        print(self.pushButton.sizeHint().width())
+        print(self.pushButton.sizeHint().height())
+
+        print(self.pushButton.minimumSizeHint().width())
+        print(self.pushButton.minimumSizeHint().height())
+
         self.horizontalLayout.addWidget(self.pushButton)
         self.pushButton_2 = QtWidgets.QPushButton(self.widget)
         self.pushButton_2.setObjectName("pushButton_2")
