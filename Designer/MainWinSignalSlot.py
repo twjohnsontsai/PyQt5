@@ -41,6 +41,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.pushButton.clicked.connect(MainWindow.close)
+        # 点击pushButton的（信号），通过connect，执行(MainWindow.close)的函数（槽）
         self.checkBox.toggled['bool'].connect(self.lineEdit.setVisible)
         self.checkBox_2.toggled['bool'].connect(self.textEdit.setEnabled)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
