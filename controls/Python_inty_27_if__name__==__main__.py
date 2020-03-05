@@ -12,4 +12,4 @@ m2()
 # 当有调用johnson.py的m1()时，他才会出现
 johnson.m1()
 # github desk用途不大
-# 如何找出github有用的执行程序
+# 直接在github用搜索功能
